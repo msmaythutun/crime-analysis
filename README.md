@@ -6,7 +6,7 @@ This repository contains data scripts, analytical notebooks, and dashboards for 
 ## Contents
 - `Crime_Analysis_2023.ipynb` - Jupyter Notebook with detailed analysis, including data cleaning and exploration.
 - `crime_dw.sql` - SQL scripts for data warehousing tasks, including star schema definitions, data import procedures, and making queries.
-- - `Star_schema.png` - Star schema with the incident fact table. 
+- `Star_schema.png` - Star schema with the incident fact table. 
 - `Crime_Analysis_Dashboard.pdf` - A PDF file showcasing various visualisations of the analysed data.
 
 

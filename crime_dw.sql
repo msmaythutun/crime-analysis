@@ -17,38 +17,6 @@ CREATE TABLE LocationDetails_Dim (
 );
 ALTER TABLE LocationDetails_Dim ALTER COLUMN CommunityArea TYPE VARCHAR(255);
 
--- DROP TABLE ArrestDetails_Dim
--- -- Create ArrestDetails_Dim table
--- CREATE TABLE ArrestDetails_Dim (
---     CaseNumber VARCHAR(255) PRIMARY KEY,
---     ArrestDate VARCHAR(255), 
---     Race VARCHAR(255),
---     Charge1Statute VARCHAR(255),
---     Charge1Description VARCHAR(255),
---     Charge1Type VARCHAR(255),
---     Charge1Class VARCHAR(255),
---     Charge2Statute VARCHAR(255),
---     Charge2Description VARCHAR(255),
---     Charge2Type VARCHAR(255),
---     Charge2Class VARCHAR(255),
---     Charge3Statute VARCHAR(255),
---     Charge3Description VARCHAR(255),
---     Charge3Type VARCHAR(255),
---     Charge3Class VARCHAR(255),
---     Charge4Statute VARCHAR(255),
---     Charge4Description VARCHAR(255),
---     Charge4Type VARCHAR(255),
---     Charge4Class VARCHAR(255),
---     ChargesStatute VARCHAR(255),
---     ChargesDescription VARCHAR(255),
---     ChargesType VARCHAR(255),
---     ChargesClass VARCHAR(255)
--- );                                                       
-
--- ALTER TABLE ArrestDetails_Dim
--- ALTER COLUMN ArrestDate
--- TYPE timestamp without Time Zone
--- USING TO_TIMESTAMP(ArrestDate, 'YYYY-MM-DD HH24:MI:SS') At Time Zone 'UTC';
 
 DROP TABLE Time_Dim;
 CREATE TABLE Time_Dim (

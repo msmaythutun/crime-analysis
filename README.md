@@ -8,12 +8,14 @@ This repository contains data scripts, analytical notebooks, and dashboards for 
 - `crime_dw.sql` - SQL scripts for data warehousing tasks, including star schema definitions, data import procedures, and making queries.
 - `Star_schema.png` - Star schema with the incident fact table. 
 - `Crime_Analysis_Dashboard.pdf` - A PDF file showcasing various visualisations of the analysed data.
+- `crime-data-flow.png` - A workflow illustrating the process from sourcing and cleaning the dataset to ETL processes, database connection, analysis and storytelling. 
 
 
 ## Tools Used
 - **Python**: For data manipulation and analysis.
 - **SQL**: For data storage and preliminary data processing.
 - **Jupyter Notebook**: For executing Python code in an interactive environment.
+- **PostgreSQL**: For further processing and structuring the preprocessed data into a star schema. 
 - **Looker Studio**: This is for creating and sharing the dashboards (as indicated in the PDF).
 
 ## Dataset
